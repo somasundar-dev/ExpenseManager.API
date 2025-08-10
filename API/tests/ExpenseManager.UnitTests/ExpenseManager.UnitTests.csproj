@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="../../src/ExpenseManager.Persistance/ExpenseManager.Persistance.csproj" />
     <ProjectReference Include="..\..\src\ExpenseManager.Application\ExpenseManager.Application.csproj" />
     <ProjectReference Include="..\..\src\ExpenseManager.Domain\ExpenseManager.Domain.csproj" />
     <ProjectReference Include="..\..\src\ExpenseManager.Infrastructure\ExpenseManager.Infrastructure.csproj" />
